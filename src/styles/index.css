@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-image: url("https://images.pexels.com/photos/4610741/pexels-photo-4610741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+}
+
+.counterClock{
+    padding-top: 150px;
+    padding-left: 450px;
+    
+    
+}
+
+.containerCounter{
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.932), rgba(128, 0, 128, 0.479));
+    border-radius:14px;
+    border-style: solid;
+    border-color: white;
+    width: 950px;
+    height: 500px;
+    padding-top: 150px;
+}
+
+
+.digits div{
+    display: inline-block;
+    font-size: 70px;
+    line-height: 90px;
+    background: rgba(128, 128, 128, 0.664);
+    border-style: double;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 5px;
+}
